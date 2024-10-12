@@ -27,10 +27,7 @@ const CharacterDetail = ({characterId}) => {
             <h4>Associated Comics:</h4>
             <ul>
                 {characterDetails.comics ? characterDetails.comics.items.map((comic, index) => (
-                    <li key={index}>
-                         <p>{comic.name}</p>
-                    </li>
-            )) : "Oops, no comics"}
+                    <li key={index}>{comic.name}</li>)) : "Oops, no comics"}
             </ul>
         </div>
     )

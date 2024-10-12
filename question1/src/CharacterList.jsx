@@ -26,7 +26,7 @@ const CharacterList = ({onCharacterSelect}) => {
                     <h4 className="header">{character.name}</h4>
                     <img src={`${character.thumbnail.path}.${character.thumbnail.extension}`} alt={character.name} className="character-image"/>
             </div>
-            ))};
+            ))}
         </div>
     )
 }
